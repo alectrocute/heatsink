@@ -5,9 +5,11 @@
 
 Scripts & code from Shards, Roadwarrior and Bootstrap included. Big thanks.
 
+heatsink is a service that allows you to run a disposable VPN service. It utilizes two VPSes, one to host the openVPN server (+ nginx to serve cert's and profiles) and another VPS to host the app website. The user goes to your domain, clicks on "generate" and has a disposable VPN account created for a specific amount of time.
+
 The documentation here is flimsy at best and I haven't tested the steps. The code worked when I ran it originally but something may be broken. I highly advise you to know your way around PHP/Linux very well before using this repo. That may be a good thing, since you should probably know programming in order to run a VPN service... ;)
 
-I will update the code & readme soon.
+I will update the code & readme soon. I lost the client-side nginx.conf file somewhere, which is kind of important (read below to see why).
 
 ## Getting started
 - Familiarize yourself with all the files and code, it's quite simple.
